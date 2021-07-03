@@ -51,7 +51,7 @@ class App extends Component{
         <input/>
         <p>I am {this.state.name}</p>
         
-        <p>I am a {this.state.profession}</p>
+        <p>I am an {this.state.profession}</p>
         <p>I am {this.state.age} years old</p>
         <button onClick={this.ageIncreaser.bind(this)}>Click</button>
         
